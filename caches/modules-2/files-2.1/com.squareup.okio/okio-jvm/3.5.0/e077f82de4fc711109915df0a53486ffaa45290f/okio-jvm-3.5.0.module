@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../okio/3.5.0/okio-3.5.0.module",
+    "group": "com.squareup.okio",
+    "module": "okio",
+    "version": "3.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okio-jvm-3.5.0.jar",
+          "url": "okio-jvm-3.5.0.jar",
+          "size": 359333,
+          "sha512": "61cdfaebf02babff657010dbc450824e886843729fb0dd320992c633a6576e1daebde8b9432fdb926155a8ae038fd193c2c457fef44bdb27c2ad4204af6403ae",
+          "sha256": "aa1786e95632b716f5a85a24326dcd516c24a929489308d14d922f18fe384d38",
+          "sha1": "d6a0bc7343210eff7dd5cfdd6eb9b5f0036638ce",
+          "md5": "e29485596ae2af696272747111f47570"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okio-jvm-3.5.0.jar",
+          "url": "okio-jvm-3.5.0.jar",
+          "size": 359333,
+          "sha512": "61cdfaebf02babff657010dbc450824e886843729fb0dd320992c633a6576e1daebde8b9432fdb926155a8ae038fd193c2c457fef44bdb27c2ad4204af6403ae",
+          "sha256": "aa1786e95632b716f5a85a24326dcd516c24a929489308d14d922f18fe384d38",
+          "sha1": "d6a0bc7343210eff7dd5cfdd6eb9b5f0036638ce",
+          "md5": "e29485596ae2af696272747111f47570"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "okio-jvm-3.5.0-sources.jar",
+          "url": "okio-jvm-3.5.0-sources.jar",
+          "size": 168611,
+          "sha512": "021b5440b4ff8f8ac3201ff343058cf5adb55539082ca32b962a6b87e25472fa6b3677e440f4c23b818542ea55d575e7826ed6db1f55518811bb7bb8ef7ffa08",
+          "sha256": "dc1bf82a355bf756aa26a8b6a1d95749d60e975a607e65b2e4b2777c1ea24f5f",
+          "sha1": "c29d303c0329c9bbcf32b4ab23cb73a683b65c63",
+          "md5": "19a56522ff496d8dc10ce87b28c54583"
+        }
+      ]
+    }
+  ]
+}
