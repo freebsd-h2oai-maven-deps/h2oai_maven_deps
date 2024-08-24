@@ -1,0 +1,13 @@
+{
+  "name": "h2o-flow",
+  "homepage": "https://github.com/h2oai/h2o-flow",
+  "version": "0.14.6",
+  "_release": "0.14.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.14.6",
+    "commit": "84485bbd645aff7cffbf5544598536850ed5ce2a"
+  },
+  "_source": "https://github.com/h2oai/h2o-flow.git",
+  "_target": "0.14.6"
+}
